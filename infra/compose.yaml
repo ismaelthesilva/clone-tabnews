@@ -1,6 +1,9 @@
+name: clone-tabnews
+
 services:
   database:
-    image: "postgres:16.0-alpine3.18"
+    container_name: tabnews-db
+    image: postgres:16.0-alpine3.18
     env_file:
       - ../.env.development
     ports:
