@@ -1,5 +1,5 @@
 function Home() {
-  return <h1>First Page</h1>;
+  return <h1>Branch: Fix Migrations endpoint</h1>;
 }
 
 function test() {
