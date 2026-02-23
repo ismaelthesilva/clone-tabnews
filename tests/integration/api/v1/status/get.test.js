@@ -1,3 +1,4 @@
+/* eslint-disable jest/prefer-to-be */
 import orchestrator from "tests/orchestrator.js";
 
 beforeAll(async () => {

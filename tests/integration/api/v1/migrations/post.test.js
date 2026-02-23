@@ -25,5 +25,6 @@ test("POST /api/v1/migrations returns 200 and status message", async () => {
   const response2Body = await response2.json();
 
   expect(Array.isArray(response2Body)).toBe(true);
+  // eslint-disable-next-line jest/prefer-to-have-length
   expect(response2Body.length).toBe(0);
 });
