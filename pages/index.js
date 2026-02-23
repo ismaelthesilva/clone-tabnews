@@ -1,9 +1,5 @@
 function Home() {
-  return <h1>Branch: Fix Migrations endpoint</h1>;
-}
-
-function test() {
-  console.log("Test function");
+  return <h1>Hello World</h1>;
 }
 
 export default Home;
